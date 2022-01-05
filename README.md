@@ -17,7 +17,7 @@ This application is made of two parts:
     - uses [MariaDB Connector/J (JDBC)](https://github.com/mariadb-corporation/mariadb-connector-j) with [Spring](https://spring.io/) ([Spring Boot](https://spring.io/projects/spring-boot) and [Data](https://spring.io/projects/spring-data)) to connect to MariaDB.
     - is a Java (Maven-based) project located in the [api](src/api) folder.
 
-This README will walk you through the steps for getting the TODO web application up and running using MariaDB.
+This README will walk you through the steps for getting the `TODO` web application up and running using MariaDB.
 
 # Table of Contents
 1. [Requirements](#requirements)
@@ -26,8 +26,8 @@ This README will walk you through the steps for getting the TODO web application
 4. [Create the database and table](#schema)
 5. [Configure, build and run the apps](#app)
     1. [Configure](#configure-api-app)
-    4. [Build and run the .NET API app](#build-run-api)
-    5. [Build and run the Client app](#build-run-client)
+    2. [Build and run the Java API app](#build-run-api)
+    3. [Build and run the Client app](#build-run-client)
 6. [Support and contribution](#support-contribution)
 7. [License](#license)
 
@@ -113,7 +113,7 @@ spring.datasource.password=Password123!
 spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
 ```
 
-### b.) Build and run the [API app](src/api) <a name="build-run-api"></a>
+### b.) Build and run the Java [API app](src/api) <a name="build-run-api"></a>
 
 Once you have retrieved a copy of the code you're ready to build and run the project! Start by opening a terminal and navigating to the root of the [api](src/api) folder, then...
 
